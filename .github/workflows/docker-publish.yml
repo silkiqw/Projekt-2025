@@ -87,4 +87,4 @@ jobs:
             -p 8000:8000 \
             -e DJANGO_SECRET_KEY=${{ secrets.DJANGO_SECRET_KEY }} \
             -e WEATHER_API_KEY=${{ secrets.WEATHER_API_KEY }} \
-            ${{ secrets.DOCKER_HUB_USERNAME }}/django-wetter-app:latest kannst du mir die ayaml erklären?
+            ${{ secrets.DOCKER_HUB_USERNAME }}/django-wetter-app:latest 
