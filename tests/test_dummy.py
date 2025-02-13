@@ -1,6 +1,13 @@
+
+
 def test_dummy():
     assert True  # Dieser Test wird immer erfolgreich sein
-from wetter.meineApp.views import add
+
+
+# Füge d
+
+# Jetzt sollte der Import funktionieren
+from ..wetter.meineApp.views import add
 
 def test_add_positive_numbers():
     assert add(2, 3) == 5
