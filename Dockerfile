@@ -1,5 +1,5 @@
 # Basis-Image mit Python 3.9
-FROM python:3.9
+FROM python:3.11
 
 # Arbeitsverzeichnis im Container setzen
 WORKDIR /app
